@@ -11,3 +11,6 @@ Run index.js in the command line and answer the questions provided to supply the
 
 ## Liscence
 N/A
+
+## Video Walkthrough
+https://app.screencastify.com/v3/watch/jeOdlFcAS3QKLu9kj3t1
