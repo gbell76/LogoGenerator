@@ -28,18 +28,6 @@ const getInput = async() => {
             message: 'What color would you like your logo to be (please use valid color name or hex value ex. green or #00ff00)?'
         }
     ])
-    // no way to validate without DOM
-    // p.style.color = shapeColor.color
-    // while(!p.style.color){
-    //     shapeColor = await inquierer.prompt([
-    //         {
-    //             type: 'input',
-    //             name: 'color',
-    //             message: 'Your color could not be found. Please use valid color name or hex value (ex. green or #00ff00).'
-    //         }
-    //     ])
-    //     p.style.color = shapeColor.color
-    // }
 
     const shape = await inquierer.prompt([
         {
@@ -57,18 +45,6 @@ const getInput = async() => {
             message: 'What color would you like that shape to be (please use valid color name or hex value ex. green or #00ff00)?'
         }
     ])
-    // no way to validate without DOM
-    // p.style.color = shapeColor.color
-    // while(!p.style.color){
-    //     shapeColor = await inquierer.prompt([
-    //         {
-    //             type: 'input',
-    //             name: 'color',
-    //             message: 'Your color could not be found. Please use valid color name or hex value (ex. green or #00ff00).'
-    //         }
-    //     ])
-    //     p.style.color = shapeColor.color
-    // }
     
     let newShape
     if(shape.shapeChoice === 'Triangle'){
